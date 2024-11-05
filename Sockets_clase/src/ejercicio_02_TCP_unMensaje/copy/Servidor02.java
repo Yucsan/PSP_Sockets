@@ -52,11 +52,11 @@ public static final String ANSI_RED = "\u001B[31m";
 			out.writeUTF(ANSI_RED+"OK desde el servidor!!");
 			socket.close();
 			
-			
 			//System.out.println(ANSI_RED+"Se cierra la conexión: Cliente desconectado");
 			//servidor.close();
 			
 			}
+			
 		}catch(IOException e1) {
 			Logger.getLogger(Servidor02.class.getName()).log(Level.SEVERE,null, e1);
 			

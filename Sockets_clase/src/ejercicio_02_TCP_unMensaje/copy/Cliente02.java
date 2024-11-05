@@ -32,11 +32,6 @@ public class Cliente02 {
 		final String HOST = "127.0.0.1";
 
 		String mensajeIns = "";
-		/*
-		 * mensajeIns = ""; while(!mensajeIns.equals("0")) { System.out.
-		 * println("Inserta una mensaje para dejar de insertar mensajes ingresa 0");
-		 * mensajeIns = tecTxt.nextLine();
-		 */
 
 		DataInputStream in;
 		DataOutputStream out;
